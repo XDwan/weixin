@@ -1,0 +1,19 @@
+<!--pages/log/index.wxml-->
+<view class="log">
+	<navigator
+	 class="log_navigator"
+	 url="../../pages/home/index?user_id={{gender}}"
+	 hover-class="navigator-hover"
+	 open-type="navigate"
+	>
+		<button
+		 class="log_button"
+		 bindgetuserinfo="bindGetUserInfo"
+		 type="primary"
+		 open-type="getUserInfo"
+		>一键登陆
+		</button>
+	</navigator>
+
+</view>
+

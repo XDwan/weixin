@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/slideBar/sildeBar",
+    "pages/user/index",
+    "pages/project/index",
+    "pages/friend/index",
+    "pages/home/index",
+    "pages/log/index"
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#F8F8FF",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "lib/source/icon/首页.png",
+        "selectedIconPath": "lib/source/icon/首页 (1).png"
+      },
+      {
+        "pagePath": "pages/project/index",
+        "text": "项目",
+        "iconPath": "lib/source/icon/list.png",
+        "selectedIconPath": "lib/source/icon/list (1).png"
+      },
+      {
+        "pagePath": "pages/friend/index",
+        "text": "好友",
+        "iconPath": "lib/source/icon/sub_account.png",
+        "selectedIconPath": "lib/source/icon/sub_account (1).png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "用户",
+        "iconPath": "lib/source/icon/user.png",
+        "selectedIconPath": "lib/source/icon/user (1).png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "项目组",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

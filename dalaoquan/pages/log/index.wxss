@@ -1,0 +1,6 @@
+.log_navigator {
+  display: flex;
+}
+.log_navigator .log_button {
+  size: 40rpx;
+}
